@@ -55,16 +55,27 @@ nav a:hover {
   display: block;
 }
 
+.hero h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--fonte-titulo);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 .hero article {
   position: absolute;
-  top: 50%;
+  bottom: 20px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.9);
   color: var(--cor-destaque1);
   padding: 20px;
   border-radius: 5px;
   max-width: 600px;
+  width: 90%;
 }
 
 .hero article img {
