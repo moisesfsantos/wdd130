@@ -18,7 +18,6 @@ body {
   color: var(--cor-destaque1);
 }
 
-/* Header usando CSS Grid */
 header {
   background-color: var(--cor-primaria);
   color: white;
@@ -35,7 +34,6 @@ header img {
   height: auto;
 }
 
-/* Nav usando CSS Flex */
 nav {
   display: flex;
   justify-content: space-around;
@@ -54,7 +52,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Section Hero */
 .hero {
   position: relative;
   text-align: center;
@@ -74,8 +71,10 @@ nav a:hover {
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--fonte-titulo);
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  background-color: rgba(0, 51, 102, 0.7);
+  padding: 10px 20px;
+  border-radius: 5px;
   font-size: 2.2rem;
 }
 
@@ -99,7 +98,6 @@ nav a:hover {
   height: auto;
 }
 
-/* Layout Grid para a História (Wireframe item 7) */
 .historia-grid {
   max-width: 1000px;
   margin: 40px auto;
@@ -125,7 +123,6 @@ nav a:hover {
   display: block;
 }
 
-/* Layout Galeria para "A aventura está te esperando!" (Wireframe item 8) */
 .galeria-section {
   max-width: 1000px;
   margin: 40px auto;
@@ -167,7 +164,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Footer com Flexbox alinhado à direita/centro */
 footer {
   background-color: var(--cor-primaria);
   color: white;
@@ -179,12 +175,16 @@ footer {
   align-items: center;
 }
 
-.redes-sociais a {
+.socialmedia {
+  display: flex;
+  gap: 10px;
+}
+
+.socialmedia a {
   text-decoration: none;
 }
 
-.redes-sociais img {
+.socialmedia img {
   width: 30px;
   height: 30px;
-  margin-left: 10px;
 }
