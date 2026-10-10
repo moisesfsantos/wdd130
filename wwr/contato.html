@@ -24,17 +24,16 @@
 
     <main>
         <section class="contato-info">
-            <h1>Fale Conosco</h1>
+            <h1>Fale Conosco - Rio Abaixo Rafting</h1>
             <p><strong>Endereço:</strong> 123 Rua Principal do Rio, Foz do Iguaçu, Paraná</p>
             <p><strong>Telefone:</strong> (45) 99999-9999</p>
             <p><strong>E-mail:</strong> info@correiras.com</p>
 
-            <!-- Mapa do Google incorporado -->
+            <!-- Mapa do Google incorporado (sem style inline) -->
             <div class="mapa">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.716382103442!2d-54.5854!3d-25.5478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDMyJzUyLjgiUyA1NMKwMzUnMDcuNCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
-                  width="100%" height="300" style="border:0;" allowfullscreen=""
-                  loading="lazy"></iframe>
+                  width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
 
@@ -58,12 +57,12 @@
 
                     <div class="campo-radio">
                         <p>Propósito da Mensagem:</p>
-                        <label><input type="radio" name="proposito" value="consulta" required>
-                            Consulta Geral</label>
-                        <label><input type="radio" name="proposito" value="reserva"> Pergunta sobre
-                            Reserva</label>
-                        <label><input type="radio" name="proposito" value="sugestao"> Sugestão de
-                            Site</label>
+                        <label for="consulta"><input type="radio" id="consulta" name="proposito"
+                              value="consulta" required> Consulta Geral</label>
+                        <label for="reserva"><input type="radio" id="reserva" name="proposito"
+                              value="reserva"> Pergunta sobre Reserva</label>
+                        <label for="sugestao"><input type="radio" id="sugestao" name="proposito"
+                              value="sugestao"> Sugestão de Site</label>
                     </div>
 
                     <div class="campo">
@@ -73,13 +72,14 @@
                     </div>
 
                     <div class="campo-checkbox">
-                        <label>
-                            <input type="checkbox" name="newsletter" value="sim"> Quero receber a
-                            newsletter mensal
+                        <label for="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                            Quero receber a newsletter mensal
                         </label>
                     </div>
 
-                    <button type="submit" class="botao-enviar">Entrar em Contato!</button>
+                    <button type="submit" class="botao-enviar">Entrar em Contato com a
+                        Empresa</button>
                 </fieldset>
             </form>
         </section>
@@ -88,15 +88,15 @@
             <h2>Estamos Aqui para Serví-lo</h2>
             <div class="funcionarios-grid">
                 <figure>
-                    <img src="imagens/cliente-feliz.jpg" alt="Perfil do Funcionário 1">
+                    <img src="imagens/cliente-feliz.jpg" alt="Carlos Silva - Guia Chefe">
                     <figcaption>Carlos Silva - Guia Chefe</figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/hero.jpg" alt="Perfil do Funcionário 2">
+                    <img src="imagens/hero.jpg" alt="Ana Souza - Atendimento">
                     <figcaption>Ana Souza - Atendimento</figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/rafting43_600.jpg" alt="Perfil do Funcionário 3">
+                    <img src="imagens/rafting43_600.jpg" alt="Marcos Lima - Instrutor">
                     <figcaption>Marcos Lima - Instrutor</figcaption>
                 </figure>
             </div>
