@@ -219,6 +219,10 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.mapa iframe {
+  border: 0;
+}
+
 .formulario-contato fieldset {
   border: 2px solid var(--cor-primaria);
   padding: 20px;
